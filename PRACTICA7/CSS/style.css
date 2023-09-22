@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+#encabezado{
+ background: rgb(48, 219, 219); 
+ height: 240px;
+ text-align: center;
+ background-image: url("../IMAGENES/logo.jpeg" );
+ background-repeat: no-repeat;
+ background-size: 180px 180px;
+}
+
+.piePagina{
+    width: 100%;/*ancho*/
+    height: 100px;/*alto*/
+    background-color: rgb(203, 183, 205);  /*colo de fondo*/
+    color: rgb(218, 221, 223);  /*color de letra dentro de la clase*/
+    bottom: 0;  /*espacio de separacion para inferior*/
+    position: fixed;
+    left: 0;  /*alineacion de contenido a la isquierda*/
+   }
+
+
+#menu{  /*identificador*/
+    height: 40px;
+    position: relative;
+    top: 200px;
+    
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(255, 0, 247);
+} 
+#datos{
+    width: 80%;
+    background-color: aquamarine;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: black;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+.areaPrincipal { /*Así se define una clase*/
+    background-image: url("../IMAGENES/logo.jpeg"); /* agregar fondo de imagen al div*/
+    background-repeat: no-repeat; /*permitir o no que se repita una imagen*/
+    width: 100%; 
+    height: auto;
+    opacity: 0.6; /*Opacidad de la imagen*/
+    -webkit-background-size: 100% 100%;
+        /* Safari 3.0 */
+    -moz-background-size: 100% 100%; /* Gecko 1.9.2 (Firefox 3.6) */
+    -o-background-size: 100% 100%;
+        /* Opera 9.5 */
+        
+    background-size: 100% 100%;
+        
+        /* Gecko 2.0 (Firefox 4.0) and other CSS3-compliant browsers */
+        
+}
+
+
+
